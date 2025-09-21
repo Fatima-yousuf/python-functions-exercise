@@ -147,12 +147,13 @@ x = 10
 my_func_global()
 print(x)  # Output: 100
 ```
-### Challenges
+# Challenges
 -Comprehending local versus global variables.
 
 -Managing multiple arguments in functions and checking user input.
 
 -Preventing unintended modifications to lists/dictionaries by invoking .copy(). 
+
 
 
 
