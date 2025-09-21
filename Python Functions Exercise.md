@@ -1,9 +1,10 @@
 # Python Functions Exercise
 ## 1. Functions in Python
 Functions execute tasks multiple times. The user invokes the function by providing inputs to it (known as arguments), and the function simply executes these instructions internally (as if it were a black box). This exercise will have you experience arguments, variable scope, and troubleshooting.
-### 1a. Unit Conversion Program (kpl ↔ mpg)
+## 1a. Unit Conversion Program (kpl ↔ mpg)
 ```python
 def kpl_to_mpg(*kpl_values):
+# function code
     conversion_factor = 2.35215  # 1 kpl = 2.35215 mpg
     mpg_values = []
     for kpl in kpl_values:
@@ -153,6 +154,7 @@ print(x)  # Output: 100
 -Managing multiple arguments in functions and checking user input.
 
 -Preventing unintended modifications to lists/dictionaries by invoking .copy(). 
+
 
 
 
