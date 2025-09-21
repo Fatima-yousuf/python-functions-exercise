@@ -4,7 +4,6 @@ Functions execute tasks multiple times. The user invokes the function by providi
 ## 1a. Unit Conversion Program (kpl ↔ mpg)
 ```python
 def kpl_to_mpg(*kpl_values):
-# function code
     conversion_factor = 2.35215  # 1 kpl = 2.35215 mpg
     mpg_values = []
     for kpl in kpl_values:
@@ -154,6 +153,7 @@ print(x)  # Output: 100
 -Managing multiple arguments in functions and checking user input.
 
 -Preventing unintended modifications to lists/dictionaries by invoking .copy(). 
+
 
 
 
